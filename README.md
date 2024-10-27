@@ -23,6 +23,11 @@ ShelfWise-AI tackles critical challenges in quality assurance for e-commerce and
    Assesses the freshness of fruits and vegetables, classifying them as fresh, medium fresh, or rotten based on visual analysis.
 
 ---
+## 🛠️ Schematic Diagram
+
+The following schematic diagram illustrates the technical workflow of the ShelfWise-AI system, detailing each process from object detection to OCR and freshness evaluation:
+
+![Schematic Diagram](assets/schematic_diagram.png)
 
 ## 🚀 Technologies at a Glance
 
