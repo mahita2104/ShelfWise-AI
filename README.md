@@ -27,9 +27,9 @@ ShelfWise-AI tackles critical challenges in quality assurance for e-commerce and
 
 The following schematic diagram illustrates the technical workflow of the ShelfWise-AI system, detailing each process from object detection to OCR and freshness evaluation:
 
-![Schematic Diagram](assets/Schematic_d1.png)
-![Schematic Diagram](assets/Schematic_d2.png)
-![Schematic Diagram](assets/Schematic_d3.png)
+![Schematic Diagram](Schematic_d1.png)
+![Schematic Diagram](Schematic_d2.png)
+![Schematic Diagram](Schematic_d3.png)
 
 ## 🚀 Technologies at a Glance
 
