@@ -1,6 +1,6 @@
 # 🛒 ShelfWise-AI
 
-**Introducing ShelfWise-AI**, a groundbreaking AI-driven quality control system designed to transform e-commerce logistics. Developed by **Team No More Panoti**, our solution tackles a critical challenge in the retail sector—ensuring the quality and safety of products, especially in the fast-moving consumer goods (FMCG) and fresh produce categories.
+Introducing **ShelfWise-AI**, a groundbreaking AI-driven quality control system designed to transform e-commerce logistics. Developed by **Team No More Panoti**, our solution tackles a critical challenge in the retail sector—ensuring the quality and safety of products, especially in the fast-moving consumer goods (FMCG) and fresh produce categories.
 
 In today’s competitive market, maintaining product quality is paramount. ShelfWise-AI harnesses the power of advanced computer vision and deep learning to automate the inspection process, providing real-time analysis and insights. Our system identifies product defects, verifies expiry dates, and assesses freshness, ensuring that only the highest quality items reach the consumers.
 
