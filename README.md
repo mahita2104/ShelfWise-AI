@@ -1,6 +1,13 @@
 # 🛒 ShelfWise-AI
 
-**ShelfWise-AI** is an intelligent, AI-driven quality control system designed to streamline e-commerce logistics by ensuring product quality at every step. Developed by **Team No More Panoti** from **Indira Gandhi Delhi Technical University for Women (IGDTUW)**, this project specializes in FMCG and fresh produce inspection through the power of computer vision and deep learning. 
+**Introducing ShelfWise-AI**, a groundbreaking AI-driven quality control system designed to transform e-commerce logistics. Developed by **Team No More Panoti**, our solution tackles a critical challenge in the retail sector—ensuring the quality and safety of products, especially in the fast-moving consumer goods (FMCG) and fresh produce categories.
+
+In today’s competitive market, maintaining product quality is paramount. ShelfWise-AI harnesses the power of advanced computer vision and deep learning to automate the inspection process, providing real-time analysis and insights. Our system identifies product defects, verifies expiry dates, and assesses freshness, ensuring that only the highest quality items reach the consumers.
+
+By seamlessly integrating into existing supply chain operations, ShelfWise-AI enhances operational efficiency and boosts customer satisfaction. With our innovative approach, we aim to not only streamline logistics but also promote a more sustainable and reliable e-commerce ecosystem.
+
+Join us as we redefine quality control in the e-commerce industry and create a safer shopping experience for consumers everywhere!
+
 
 ## 🌟 Team Members
 - **Mahita Boyina**
