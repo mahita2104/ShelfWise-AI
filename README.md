@@ -23,13 +23,35 @@ ShelfWise-AI tackles critical challenges in quality assurance for e-commerce and
    Assesses the freshness of fruits and vegetables, classifying them as fresh, medium fresh, or rotten based on visual analysis.
 
 ---
-## 🛠️ Schematic Diagram
+## 🛠️ Schematic Diagrams
 
-The following schematic diagram illustrates the technical workflow of the ShelfWise-AI system, detailing each process from object detection to OCR and freshness evaluation:
+Each component of ShelfWise-AI is represented in the schematic diagrams below. These diagrams provide an overview of the three main functions: packaging label extraction, expiry date validation, and freshness prediction.
 
-![Schematic Diagram](Schematic_d1.png)
-![Schematic Diagram](Schematic_d2.png)
-![Schematic Diagram](Schematic_d3.png)
+### 1. Packaging Label Extraction
+
+![Packaging Label Extraction Diagram](Schematic_d1.png)
+
+This module processes an input test image to detect and extract packaging label details. After grayscale conversion and contrast adjustments, Roboflow's object detection model locates key elements such as brand names and weights. The EasyOCR module reads the text from the cropped bounding box, and a Python script identifies and standardizes the brand name.
+
+**Output:** Brand Name
+
+### 2. Expiry Date Validation
+
+![Expiry Date Validation Diagram](Schematic_d2.png)
+
+This module identifies expiry and manufacturing dates along with the MRP by processing an input test image. After grayscale conversion and contrast adjustments, Roboflow’s object detection model locates relevant text on the packaging. EasyOCR reads the text from the cropped image, and a Python script identifies and standardizes dates for uniformity.
+
+**Output:** Expiry Date, Manufacturing Date, MRP
+
+### 3. Freshness Prediction of Produce
+
+![Freshness Prediction Diagram](Schematic_d3.png)
+
+In this module, the input image undergoes resizing and normalization. MobileNetV2, pre-trained on ImageNet and fine-tuned for freshness detection, extracts features to predict the freshness index. Based on predefined thresholds, the system classifies produce into three categories: fresh, medium fresh, and rotten.
+
+**Output:** Freshness Index
+
+---
 
 ## 🚀 Technologies at a Glance
 
