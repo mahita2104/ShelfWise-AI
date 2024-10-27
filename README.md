@@ -60,3 +60,26 @@ In this module, the input image undergoes resizing and normalization. MobileNetV
 - **Deep Learning Model for Freshness**: MobileNetV2 with transfer learning for freshness assessment
 
 ---
+
+## 📊 Evaluation Metrics
+
+Below are the performance metrics for each module in the ShelfWise-AI project, showcasing the accuracy and precision of our models in detecting freshness, reading package labels, and validating expiry dates.
+
+- **Detecting Freshness in Fresh Produce**
+  - **Training Precision**: 0.97 (Fresh), 1.00 (Rotten)
+  - **Training Recall**: 0.99 (Fresh), 0.97 (Rotten)
+  - **Validation Precision**: 0.94 (Fresh), 1.00 (Rotten)
+  - **Validation Recall**: 1.00 (Fresh), 0.94 (Rotten)
+  - **Overall Accuracy**: 97%
+
+- **Reading Package Label**
+  - **Mean Average Precision (mAP)**: 79.5%
+  - **Precision**: 85.3%
+  - **Recall**: 70.5%
+
+- **Expiry Date Validation**
+  - **Mean Average Precision (mAP)**: 80.3%
+  - **Precision**: 88.0%
+  - **Recall**: 74.4%
+
+---
