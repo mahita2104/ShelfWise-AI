@@ -62,9 +62,15 @@ In this module, the input image undergoes resizing and normalization. MobileNetV
 
 ## 🚀 Technologies at a Glance
 
-- **Object Detection**: Roboflow 3.0, trained for precise object localization
-- **OCR**: EasyOCR for high-accuracy text extraction
-- **Deep Learning Model for Freshness**: MobileNetV2 with transfer learning for freshness assessment
+- **Object Detection**: **Roboflow 3.0** uses the YOLOv8 architecture, a lightweight convolutional neural network (CNN) designed for high-speed, accurate detection. YOLOv8’s backbone and efficient attention layers allow real-time localization.
+
+- **Optical Character Recognition (OCR)**: **EasyOCR** leverages a CRNN (Convolutional Recurrent Neural Network) combining convolutional layers for feature extraction and bidirectional LSTM layers for sequential text recognition, enabling high-accuracy OCR across complex layouts.
+  
+![Model-Architecture](Images/EasyOCR-model-architecture.png)
+- **Freshness Detection Model**: **MobileNetV2** with transfer learning, focusing on lightweight depthwise separable convolutions to assess freshness based on color and texture.
+<p align="center">
+  <img src="Images/freshness-detection-model-architecture.png" />
+</p> 
 
 ---
 
