@@ -1,12 +1,35 @@
 # 🛒 ShelfWise-AI
 
-Introducing **ShelfWise-AI**, a groundbreaking AI-driven quality control system designed to transform e-commerce logistics. Developed by **Team No More Panoti**, our solution tackles a critical challenge in the retail sector—ensuring the quality and safety of products, especially in the fast-moving consumer goods (FMCG) and fresh produce categories.
+Introducing **ShelfWise-AI**, a groundbreaking AI-driven quality control system designed to transform e-commerce logistics.Developed by Team No More Panoti, our solution addresses a critical challenge in the retail sector—ensuring the quality and safety of products, particularly in the fast-moving consumer goods (FMCG) and fresh produce categories.
+
+In today’s competitive market, maintaining product quality is essential. ShelfWise-AI leverages advanced computer vision and deep learning to automate the inspection process, providing real-time analysis and insights. By seamlessly integrating into existing supply chain operations, our system not only enhances operational efficiency but also boosts customer satisfaction.
+
+### Project Overview
+
+**Key Features of ShelfWise-AI**
+
+- **📦 Packaging Label Extraction**  
+  Automatically extracts essential information, such as brand name and net weight, from product packaging to ensure accuracy and compliance with regulations.
+
+- **📅 Expiry Date Validation**  
+  Identifies and standardizes expiry dates, manufacturing dates, and maximum retail prices (MRP) on packaging, ensuring that product information remains current and reliable.
+
+- **🍎 Freshness Prediction of Produce**  
+ Analyzes the freshness of fruits and vegetables, classifying them as fresh, medium fresh, or rotten based on color, texture, and other visual cues, which is crucial for maintaining quality in the FMCG sector.
+
+- **🔄 Seamless Integration**  
+  Designed to work within existing supply chain frameworks, ShelfWise-AI integrates smoothly into logistics operations, facilitating easy adoption without significant disruption.
+  
+Join us as we redefine quality control in the e-commerce industry, creating a safer shopping experience for consumers everywhere!
+
+---
+<!--Developed by **Team No More Panoti**, our solution tackles a critical challenge in the retail sector—ensuring the quality and safety of products, especially in the fast-moving consumer goods (FMCG) and fresh produce categories.
 
 In today’s competitive market, maintaining product quality is paramount. ShelfWise-AI harnesses the power of advanced computer vision and deep learning to automate the inspection process, providing real-time analysis and insights. Our system identifies product defects, verifies expiry dates, and assesses freshness, ensuring that only the highest quality items reach the consumers.
 
 By seamlessly integrating into existing supply chain operations, ShelfWise-AI enhances operational efficiency and boosts customer satisfaction. With our innovative approach, we aim to not only streamline logistics but also promote a more sustainable and reliable e-commerce ecosystem.
 
-Join us as we redefine quality control in the e-commerce industry and create a safer shopping experience for consumers everywhere!
+Join us as we redefine quality control in the e-commerce industry and create a safer shopping experience for consumers everywhere!-->
 
 
 ## 🌟 Team Members
@@ -16,7 +39,7 @@ Join us as we redefine quality control in the e-commerce industry and create a s
 
 ---
 
-## 💡 Project Overview
+<!---## 💡 Project Overview
 
 ShelfWise-AI tackles critical challenges in quality assurance for e-commerce and retail logistics. Here’s how it works:
 
@@ -29,7 +52,7 @@ ShelfWise-AI tackles critical challenges in quality assurance for e-commerce and
 3. **🍎 Freshness Prediction of Produce**  
    Assesses the freshness of fruits and vegetables, classifying them as fresh, medium fresh, or rotten based on visual analysis.
 
----
+--- -->
 ## 🛠️ Schematic Diagrams
 
 Each component of ShelfWise-AI is represented in the schematic diagrams below. These diagrams provide an overview of the three main functions: packaging label extraction, expiry date validation, and freshness prediction.
